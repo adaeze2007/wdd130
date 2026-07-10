@@ -1,0 +1,53 @@
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+section {
+    background-color: wheat;
+    margin: 20px 0;
+    padding: 20px;
+    border-left: 5px solid darkblue;
+}
+
+h2 {
+    color: darkblue;
+    margin-top: 0;
+}
+
+a {
+    color: darkblue;
+    font-weight: bold;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+footer {
+    background-color: darkblue;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
