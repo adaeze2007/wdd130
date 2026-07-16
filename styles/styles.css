@@ -3,12 +3,14 @@
      padding: 10px;
  }
 
+ /* TODO: add background color and choose color scheme*/
  nav a {
      color: white;
      display: block;
      padding: 20px;
  }
 
+ /* color scheme should be blue */
  h1 {
      color: darkblue;
  }
