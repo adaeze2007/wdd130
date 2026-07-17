@@ -1,60 +1,72 @@
- nav {
-     background-color: darkblue;
-     padding: 10px;
- }
+:root {
+    --primary-color: darkblue;
+    --secondary-color: black;
+    --heading-font: Arial, Helvetica, sans-serif;
+    --standard-padding: 1rem;
+    --standard-border: 1px solid black;
+    --box-shadow: 0 0 30px gray;
 
- /* TODO: add background color and choose color scheme*/
- nav a {
-     color: white;
-     display: block;
-     padding: 20px;
- }
+}
 
- /* color scheme should be blue */
- h1 {
-     color: darkblue;
- }
+nav {
+    background-color: var(--primary-color);
+    padding: 10px;
+}
 
- main img {
-     width: 150px;
-     height: auto;
-     border: 1px solid black;
-     padding: 2px;
-     box-shadow: 0 0 30px gray;
- }
+/* TODO: add background color and choose color scheme*/
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
 
- p {
-     padding: 0;
- }
+/* color scheme should be blue */
+h1 {
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
 
- main {
-     max-width: 840px;
-     height: auto;
-     border: 1px solid black;
-     padding: 2px;
-     box-shadow: 0 0 30px gray;
-     margin: 1px;
+/* ive learnt root and variables */
+main img {
+    width: 150px;
+    height: auto;
+    border: var(--standard-border);
+    padding: 2px;
+    box-shadow: var(--box-shadow);
+}
 
- }
+p {
+    padding: 0;
+}
 
- aside {
-     width: 20rem;
-     margin: 1rem;
-     border: 1px solid rgb(0, 0, 0);
-     padding: 1rem;
-     background-color: palegoldenrod;
-     color: black;
-     text-align: center;
+main {
+    max-width: 840px;
+    height: auto;
+    border: var(--standard-border);
+    padding: 2px;
+    box-shadow: var(--box-shadow);
+    margin: 1px;
 
- }
+}
 
- aside img {
-     width: 200px;
-     height: auto;
- }
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: var(--standard-border);
+    padding: var(--standard-padding);
+    background-color: palegoldenrod;
+    color: var(--secondary-color);
+    text-align: center;
 
- footer {
-     margin-top: 15px;
-     border-top: 1px solid #000;
-     text-align: center;
- }
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
+}
