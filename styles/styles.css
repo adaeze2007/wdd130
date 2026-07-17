@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 :root {
     --primary-color: darkblue;
     --secondary-color: black;
@@ -24,6 +30,7 @@ nav a {
 h1 {
     color: var(--primary-color);
     font-family: var(--heading-font);
+    margin-bottom: 15px;
 }
 
 /* ive learnt root and variables */
@@ -33,6 +40,8 @@ main img {
     border: var(--standard-border);
     padding: 2px;
     box-shadow: var(--box-shadow);
+    float: right;
+    margin: 10px 0 20px 20px;
 }
 
 p {
@@ -51,13 +60,17 @@ main {
 
 aside {
     width: 20rem;
-    margin: 1rem;
-    border: var(--standard-border);
-    padding: var(--standard-padding);
-    background-color: palegoldenrod;
-    color: var(--secondary-color);
     text-align: center;
+    position: relative;
 
+}
+
+aside h2 {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0.25rem 0.5rem;
 }
 
 aside img {
@@ -69,4 +82,13 @@ footer {
     margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: var(--standard-border);
+    padding: var(--standard-padding);
+    background-color: lightblue;
+    color: var(--secondary-color);
 }
